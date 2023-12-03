@@ -1,0 +1,4 @@
+#  <obsnum>   <comment>     # <SLpipeline args>
+110405    short observation, failed
+110407    good detections
+110411    short, aborted?
