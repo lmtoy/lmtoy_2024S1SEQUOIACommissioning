@@ -86,10 +86,10 @@ So far only one map of the first night was good.
 
 - 110438
 
-     SLpipeline.sh obsnum=110438    # IRC+10216    restfreq=230.538,220.3986 (12co and 13co in 2-1)
+       SLpipeline.sh obsnum=110438    # IRC+10216    restfreq=230.538,220.3986 (12co and 13co in 2-1)
 
-     QAC_STATS: IRC+10216_110438__0.txt -4448.46 88.1506 -4785.95 -399.533 -8.37652e+06 -1 1850
-     QAC_STATS: IRC+10216_110438__1.txt -4201.63 93.8925 -4535.21 -3638.3 -8.04902e+06 -1 1853
+       QAC_STATS: IRC+10216_110438__0.txt -4448.46 88.1506 -4785.95 -399.533 -8.37652e+06 -1 1850
+       QAC_STATS: IRC+10216_110438__1.txt -4201.63 93.8925 -4535.21 -3638.3 -8.04902e+06 -1 1853
 
 - 110433
 
