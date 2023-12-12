@@ -2,7 +2,7 @@
 
 
 Commissioning work for SEQ.  Started 1-dec-2023 on the generator. Some 1MM is also mentioned here,
-as the Ps mode in SEQ and 1MM are simular.
+as the Ps mode in SEQ and 1MM are similar.
 
 Summary:
 
@@ -24,31 +24,26 @@ So far only one map of the first night was good.
 
 - 110362 - IRC+10123 
 
-       SLpipeline.sh obsnum=110362    # IRC+10123    restfreq=86.243442,86.243442
+       SLpipeline.sh obsnum=110362    # IRC+10123    restfreq=86.243442,86.243442 (SiO twice)
 
        QAC_STATS: IRC+10123_110362__0.txt 78.0381 77.5216 -204.884 1040.29 153499 0.85978 1903
        QAC_STATS: IRC+10123_110362__1.txt 60.2893 79.1958 -196.641 1030.59 120230 0.744827 1893
 
 - 110354 - Ori-KL 
 
-       SLpipeline.sh obsnum=110354    # Ori-KL       restfreq=86.243442,88.631847
+       SLpipeline.sh obsnum=110354    # Ori-KL       restfreq=86.243442,88.631847 (SiO and HCN)
 
        QAC_STATS: Ori-KL_110354__0.txt 850.178 540.842 -1102.7 172398 2.7311e+07 0.993566 7275
        QAC_STATS: Ori-KL_110354__1.txt 650.052 588.132 -12798.8 29476.1 1.34744e+07 0.950286 7330
 
      The 86GHz data also has a line at -300
 
-- 110414 (MonR2) - 120sec
-
-
 - 110416 (MonR2) - 120sec
 
-       SLpipeline.sh obsnum=110416    # MonR2        restfreq=115.271202,109.782173
+       SLpipeline.sh obsnum=110416    # MonR2        restfreq=115.271202,109.782173  (co and c18o)
      
        QAC_STATS: MonR2_110416__0.txt 2226.26 611.437 -104.812 25167.1 2.00972e+07 0.99999 7799
        QAC_STATS: MonR2_110416__1.txt 2157.52 399.925 -29264.5 9503.88 1.73313e+07 0.996634 7976
-
-
 
 
 
@@ -63,7 +58,7 @@ So far only one map of the first night was good.
 
 - 110399    Pointing
 
-       SLpipeline.sh obsnum=110399 extent=120    # 27.2 sec
+       SLpipeline.sh obsnum=110399 extent=120    # 27.2 sec (SiO and HCN)
 
 
        QAC_STATS: O-Cet_110399__0-full -3.39204e-05 0.128163 -10.0138 22.3949 547.027 0.0178856 190765
@@ -93,7 +88,7 @@ So far only one map of the first night was good.
 
 - 110433
 
-       SLpipeline.sh obsnum=110433    # MonR2        restfreq=230.538,220.3986
+       SLpipeline.sh obsnum=110433    # MonR2        restfreq=230.538,220.3986 (co and c18o)
 
        QAC_STATS: MonR2_110433__0.txt 10962.6 193.585 10377.2 25265.6 2.1294e+07 1 1875
        QAC_STATS: MonR2_110433__1.txt 12703.9 405.527 11565.1 15572.4 2.44094e+07 1 1910
