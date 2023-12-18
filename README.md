@@ -75,6 +75,8 @@ So far only one map of the first night was good.
 
 # matching 1MM Ps
 
+With the caveat that the 1MM receiver was out of focus, we did get some data to play with.
+
 110421 110423 110425 110429 110431 110433 on MonR2
 
 110436 110438 on IRC+10216
@@ -91,8 +93,7 @@ So far only one map of the first night was good.
        SLpipeline.sh obsnum=110433    # MonR2        restfreq=230.538,220.3986 (co and c18o)
 
        QAC_STATS: MonR2_110433__0.txt 10962.6 193.585 10377.2 25265.6 2.1294e+07 1 1875
-       QAC_STATS: MonR2_110433__1.txt 12703.9 405.527 11565.1 15572.4 2.44094e+07 1 1910
-
+       QAC_STATS: MonR2_110433__1.txt 12703.9 405.527 11565.1 15572.4 2.44094e+07 1 19100
 Note for 1MM only roach0 is written
 
 # Handling Ps and Bs modes in SLpipeline
