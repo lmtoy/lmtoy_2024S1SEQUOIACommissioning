@@ -2,3 +2,15 @@
 110405    short observation, failed
 110407    good detections
 110411    short, aborted?
+
+# bench3
+#110399        bench3    # foo=0
+110399__0    bench3    # pix_list=-15 foo=1
+110399__1    bench3    # pix_list=-0  foo=2
+110401__0    bench3    # pix_list=-14 foo=11
+110401__1    bench3    # pix_list=-1  foo=12
+# flag is __bank isn't 0 or 1
+
+# 110399_110401     test1   # foo=11
+110399_110401__0    test2   # foo=12
+110399_110401__1    test3   # foo=13
