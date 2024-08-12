@@ -34,6 +34,18 @@ So far only one map of the first night was good.
       SLpipeline.sh obsnum=111259 bank=1 pix_list=-1,13,14,15   # 13CO
 
 
+## SEQ Pointing maps
+
+
+Used for archive testing
+  
+      obsnum=111082
+      obsnum=111073
+      SLpipeline.sh obsnum=$obsnum restart=1 extent=120 public=2020-12-31
+      SLpipeline.sh obsnum=$obsnum bank=1 pix_list=-0
+
+
+
 # SEQ Ps
 
 
