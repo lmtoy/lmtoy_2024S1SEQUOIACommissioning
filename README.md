@@ -18,7 +18,8 @@ So far only one map of the first night was good.
 
 - 110407 - long 45 min 2IF integration on MonR2 in narrow band 200MHz mode . Lots of beam issues, especially in bank 1
            bank1 has beams 0,4 that need to be removed in order for pipeline not to crash, and later bank0 needs to be
-	   re-inspected since beams 0,4 are ok for it.
+	   re-inserted since beams 0,4 are ok for it.   12CO and C180, both were detected.
+           Note the two associated obsnums were bad.
 
 
      SLpipeline.sh obsnum=110407 dv=10 dw=40 vlsr=10  pix_list=-0,4 restart=1  
